@@ -1,0 +1,10 @@
+﻿fastapi
+redis
+types-redis
+uvicorn
+keras
+scikit-learn
+numpy
+matplotlib
+tensorflow
+fastapi[standard]
