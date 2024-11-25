@@ -52,7 +52,7 @@ html_content = """
     <title>6ЛР. Шеламов К203с9-1</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>Поле ввода значений для ирисов</h1>
     <form action="/submit" method="post">
         <label for="sepal_length">Длина чашелистика:</label><br>
         <input type="number" step="0.01" min="0" id="sepal_length" name="sepal_length" required><br><br>
