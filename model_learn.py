@@ -44,3 +44,4 @@ model.compile(loss=loss_function, optimizer='adam', metrics=['accuracy'])
 
 
 model.fit(X_train, y_train_one_hot, epochs=250, batch_size=10, verbose=1)
+model.save('model.keras')
